@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Media files (large binaries)
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.zip
+*.tar.gz
+
+# Data files
+*.csv
+*.xlsx
+*.log
+*.tmp
+.DS_Store
+
+# Secrets (NEVER commit)
+.env
+.env.local
+secrets/
+config.json
+openclaw.json
+*.key
+*.pem
+
+# Large documents
+*.pdf
+*.docx
+*.pptx
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Memory/RAG (content, not structure)
+memory/*.md
+.brv/context-tree/**/*.md
+!memory/.gitkeep
+!.brv/context-tree/.gitkeep
+
+# Client repos (external git repos)
+client-repos/*/
+!client-repos/.gitkeep

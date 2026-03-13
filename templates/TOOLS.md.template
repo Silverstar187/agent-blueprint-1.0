@@ -1,0 +1,80 @@
+# TOOLS.md - Agent Capabilities Template
+
+> Your technical cheat sheet. Document available tools and how to use them.
+
+---
+
+## 🔌 Gateway & Infrastructure
+
+- **Gateway Port:** [Port]
+- **Gateway Mode:** [local/lan]
+- **Control UI:** [Active/Disabled]
+- **Backup Dir:** [Path]
+- **Memory Sync Repo:** [GitHub URL]
+
+---
+
+## 🤖 Models & Providers
+
+- **Primary Model:** [Model]
+- **Reasoning Model:** [Model]
+- **Fallback Chain:** [Chain]
+- **OpenAI:** [Config status]
+
+---
+
+## 🧰 Specialized Skills
+
+### Available Skills
+
+| Skill | Purpose | Status |
+|:---|:---|:---|
+| **[Skill 1]** | [Description] | [Active/Pending] |
+| **[Skill 2]** | [Description] | [Active/Pending] |
+| **[Skill 3]** | [Description] | [Active/Pending] |
+
+### Skill Categories
+
+- **Development:** [List]
+- **Communication:** [List]
+- **Knowledge:** [List]
+- **Automation:** [List]
+
+---
+
+## 🕷️ Web Scraping
+
+### Scraping Hierarchy
+
+```
+1. web_fetch tool → Fast, static HTML
+2. Browser tool   → Full browser automation
+3. Apify actors   → Specialized scrapers
+4. Manual/API     → Official APIs
+```
+
+### Available Scrapers
+
+| Problem | Tool | Cost |
+|:---|:---|:---|
+| [Use case] | [Tool] | [Cost] |
+
+---
+
+## 🧠 Knowledge & Ontology
+
+- **Ontology:** [Knowledge graph tool]
+- **RAG:** [Semantic search tool]
+- **Memory:** [Daily memory system]
+
+---
+
+## 📁 Paths & Scripts
+
+- **Workspace:** [Path]
+- **Sync Script:** [Path]
+- **[Custom Script]:** [Path]
+
+---
+
+*Last updated: YYYY-MM-DD*

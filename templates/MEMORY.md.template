@@ -1,0 +1,183 @@
+# Persistent Memory: MEMORY.md Template
+
+> Long-term learnings, patterns, and decisions. The knowledge base that persists across sessions.
+
+---
+
+## Project Context
+
+### Active Projects
+
+1. **[PROJECT NAME 1]**
+   - **Status:** [In Development / Active / Maintenance]
+   - **Goal:** [One-line objective]
+   - **Key Assets:** [Important files/tools]
+
+2. **[PROJECT NAME 2]**
+   - **Status:** [Status]
+   - **Goal:** [Goal]
+   - **Key Assets:** [Assets]
+
+### Architecture Stack
+
+- **Framework:** [Primary framework]
+- **Primary LLM:** [Model name]
+- **Fallback:** [Fallback models]
+- **Container:** [Docker/Kubernetes/etc.]
+- **Documentation:** [Format preference]
+
+---
+
+## Long-Term Learnings
+
+### [DOMAIN] Best Practices
+
+**Key insights from your work:**
+
+1. **[PATTERN NAME 1]**
+   - **What:** [Description]
+   - **When:** [Usage context]
+   - **Example:** [Code snippet or reference]
+
+2. **[PATTERN NAME 2]**
+   - **What:** [Description]
+   - **When:** [Usage context]
+   - **Example:** [Reference]
+
+### Subagent Patterns
+
+**When spawning subagents works best:**
+
+1. **Isolation via fork** - Protects main context
+2. **Specialized roles** - Clear responsibility per agent
+3. **Mailbox communication** - For team coordination
+4. **Task lists** - Clear deliverables and deadlines
+
+### Documentation Patterns
+
+- **ADRs** for major decisions
+- **Component docs** with YAML frontmatter
+- **Diagrams** for visualization
+- **Daily logs** in memories/YYYY-MM-DD.md
+
+---
+
+## Project History
+
+### YYYY-MM-DD: [MILESTONE NAME]
+- **What:** [Description of event]
+- **Decision:** [What was decided]
+- **Outcome:** [Result]
+- **Lessons:** [What you learned]
+
+### YYYY-MM-DD: [ANOTHER MILESTONE]
+- **What:** [Description]
+- **Decision:** [Decision]
+- **Outcome:** [Result]
+
+### Future Milestones
+
+- [ ] [Milestone 1]
+- [ ] [Milestone 2]
+- [ ] [Milestone 3]
+
+---
+
+## Technology Decisions
+
+### [TECHNOLOGY AREA 1]
+
+**Decision:** [What you chose]
+**Begründung:** [Why]
+**Alternatives:** [What you rejected]
+**ADR:** [Link to ADR if exists]
+
+### [TECHNOLOGY AREA 2]
+
+**Decision:** [Choice]
+**Begründung:** [Why]
+**Alternatives:** [Rejected options]
+
+---
+
+## Maintenance & System Care
+
+### YYYY-MM-DD: [Maintenance Event]
+- **What:** [Description]
+- **Actions:** [What you did]
+- **Results:** [Outcome]
+- **Status:** [Current state]
+
+---
+
+## User Preferences
+
+### Communication
+- [ ] Executive summaries preferred
+- [ ] Detailed analyses for complex decisions
+- [ ] Trade-off analyses when options exist
+- [ ] Markdown documentation preferred
+- [ ] Visual diagrams for architecture
+
+### Security
+- [ ] Zero-Trust architecture
+- [ ] mTLS for internal communication
+- [ ] Secrets in vault/encrypted storage
+- [ ] Regular security audits
+
+### Cost
+- [ ] Budget-conscious cloud usage
+- [ ] Spot instances preferred
+- [ ] Autoscaling with limits
+- [ ] Cost monitoring enabled
+
+---
+
+## Known Issues & Workarounds
+
+### [ISSUE 1]
+**Problem:** [Description]
+**Workaround:** [Solution]
+**Status:** [Open/Resolved]
+
+### [ISSUE 2]
+**Problem:** [Description]
+**Workaround:** [Solution]
+**Status:** [Status]
+
+---
+
+## Resources & Links
+
+### Documentation
+- [Resource 1](URL)
+- [Resource 2](URL)
+
+### Tools
+- [Tool 1](URL)
+- [Tool 2](URL)
+
+### Templates
+- ADR: [Path]
+- Component: [Path]
+- Validation: [Path]
+
+---
+
+## Open Points
+
+### Short-term (1-2 weeks)
+- [ ] [Task 1]
+- [ ] [Task 2]
+
+### Medium-term (1-3 months)
+- [ ] [Task 3]
+- [ ] [Task 4]
+
+### Long-term (3-12 months)
+- [ ] [Task 5]
+- [ ] [Task 6]
+
+---
+
+*Update this file weekly with new learnings and decisions.*

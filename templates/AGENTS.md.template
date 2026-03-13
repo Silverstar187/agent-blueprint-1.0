@@ -1,0 +1,57 @@
+# AGENTS.md - Infrastructure Documentation Template
+
+> Your deployment infrastructure, models, and system configuration.
+
+---
+
+## 🖥️ Server Infrastructure
+
+| Field | Value |
+|:---|:---|
+| **Provider** | [VPS Provider: Hostinger/AWS/DigitalOcean/etc.] |
+| **IP Address** | [Public IP] / [Private IP] |
+| **SSH User** | [Username] |
+| **SSH Key** | [~/.ssh/key_path] |
+| **Container Name** | [Docker container name] |
+| **Config Path** | [Path to openclaw.json inside container] |
+| **Active Port** | [Port number] |
+
+---
+
+## 🤖 Model Intelligence
+
+- **Primary Model:** [Model ID, e.g., moonshot/kimi-k2.5]
+- **Reasoning Model:** [Model for complex tasks]
+- **Fallback Chain:** [Order of fallbacks]
+- **Status:** [Operational/Needs config]
+
+---
+
+## 🛡️ Security & Networking
+
+- **Gateway Bind:** [lan/host/0.0.0.0]
+- **Tailscale Mode:** [disabled/serve/none]
+- **Firewall (UFW):**
+  - Port [PORT]/tcp: [ALLOW/DENY] for [IP range]
+- **Allowed Origins:** [CORS config]
+
+---
+
+## 🛰️ Backup & Continuity
+
+- **Backup Script:** [Path to backup script]
+- **Memory Repo:** [GitHub URL for memory sync]
+- **Git-Sync:** [Cron schedule or manual]
+
+---
+
+## 🔧 Fixed Issues Log
+
+### YYYY-MM-DD: [Issue Name]
+- **Problem:** [Description]
+- **Solution:** [What fixed it]
+- **Status:** [Resolved]
+
+---
+
+*Last Update: YYYY-MM-DD*

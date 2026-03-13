@@ -1,0 +1,109 @@
+# HEARTBEAT.md - Progress Engine Template
+
+> **Primary Hub:** [YOUR PROJECT MANAGEMENT TOOL]
+> **URL:** [LINK TO TRELLO/NOTION/ETC.]
+> **Rule:** All results → [TOOL]. HEARTBEAT = [TOOL]-Status + Next Actions.
+
+---
+
+## 🎯 FINAL GOAL
+
+**[MEASURABLE OBJECTIVE] erreicht?** [❌/✅] | **DEADLINE:** YYYY-MM-DD
+
+Example:
+> **$100 MRR mit ProductX erreicht?** ❌ NOCH NICHT | **DEADLINE:** 2026-03-31
+
+---
+
+## 📊 ACTIVE PROJECTS
+
+### Current Priorities (from [TOOL])
+
+| Project | Status | Next Action | Priority |
+|:---|:---|:---|:---|
+| **[PROJECT 1]** | 🟡/🟢/🔴 | [Concrete step] | P0/P1/P2 |
+| **[PROJECT 2]** | 🟡/🟢/🔴 | [Concrete step] | P0/P1/P2 |
+| **[PROJECT 3]** | 🟡/🟢/🔴 | [Concrete step] | P0/P1/P2 |
+
+**Priority Legend:**
+- 🔴 **P0** - Today (critical)
+- 🟠 **P1** - This week
+- 🟡 **P2** - This month
+- 🟢 **P3** - Someday
+
+---
+
+## 🔥 TODAY'S FOCUS (NUR EINES)
+
+**Heute:** [SINGLE PRIORITY TASK]
+
+**Warum:** [BUSINESS/TECHNICAL JUSTIFICATION]
+
+---
+
+## 🚧 Active Blockers
+
+| Blocker | Seit | [TOOL] Liste | Lösung |
+|:---|:---|:---|:---|
+| [Issue 1] | [Duration] | [List name] | [Next step] |
+| [Issue 2] | [Duration] | [List name] | [Next step] |
+| [Issue 3] | [Duration] | [List name] | [Next step] |
+
+**→ Wenn Blocker >[X]h:** [FALLBACK ACTION]
+
+---
+
+## ✅ YESTERDAY'S WINS ([TOOL]: Erledigt)
+
+- [x] [Completed task with impact]
+- [x] [Completed task with impact]
+- [x] [Completed task with impact]
+
+---
+
+## 🎮 AUTONOMOUS ACTION (Wenn kein Input)
+
+**Wenn Blocker >[X]h und kein User-Input:**
+
+1. **[ALTERNATE WORK STREAM 1]** prüfen
+2. **[BACKLOG]** durchgehen
+3. **[NON-BLOCKED PRIORITY]** umsetzen
+4. **[FALLBACK PROJECT]** vorantreiben
+
+---
+
+## 🔄 SYNC-REGELN
+
+### [TOOL] → HEARTBEAT (Auto)
+- Jeder Heartbeat: [TOOL]-Status prüfen
+- [TOOL] = Source of Truth
+- HEARTBEAT = [TOOL]-Status + Next Actions
+
+### HEARTBEAT → [TOOL] (Manuell)
+- Neue Ergebnisse → Als Kommentar in entsprechende Karte
+- Erledigte Tasks → Checkliste abhaken
+- Neue Blocker → Karte in "[WAITING LIST]" verschieben
+
+---
+
+## 📈 METRICS (Wöchentlich updaten)
+
+| Woche | [METRIC 1] | [METRIC 2] | [METRIC 3] | [METRIC 4] |
+|:---|:---|:---|:---|:---|
+| [KW##] | [Value] | [Value] | [Value] | [Value] |
+
+---
+
+## 🎯 HEARTBEAT_OK NUR WENN:
+
+- [ ] [TOOL] Board aktualisiert
+- [ ] Mindestens 1 Karte vorangebracht (Checkliste progress)
+- [ ] ODER Neue Karte erstellt
+- [ ] ODER Blocker dokumentiert & Kommunikation initiiert
+
+**ANDERNFALLS:** Blocker identifizieren → [TOOL] Karte in "[WAITING LIST]" → User benachrichtigen
+
+---
+
+*Last [TOOL] Sync: YYYY-MM-DD HH:MM UTC*
+*Next Sync: Jeder Heartbeat*
