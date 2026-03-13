@@ -46,7 +46,7 @@ Deploy your first professional agent in four steps:
 
 ```bash
 # 1. Clone the Blueprint
-git clone https://github.com/Silverstar187/agent-blueprint-1.0.git my-agent
+git clone https://github.com/focuscall-ai/agent-blueprint-1.0.git my-agent
 cd my-agent
 
 # 2. Run Setup
